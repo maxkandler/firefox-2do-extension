@@ -1,16 +1,21 @@
 'use strict';
 
 const self = require("sdk/self");
-const actionButton = require("sdk/ui/button/action");
+const { ActionButton } = require("sdk/ui/button/action");
 const doHandler = require("./lib/2dohandler");
 const tabs = require('sdk/tabs');
 const selection = require("sdk/selection");
 
 
-var button = actionButton.ActionButton({
+var button = ActionButton({
   id: "add-to-2do",
   label: "Add to 2Do",
-  icon: "./icon-16.png",
+  icon: {
+    "18": self.data.url("./icon-18.png"), 
+    "32": self.data.url("./icon-32.png"),
+    "36": self.data.url("./icon-36.png"),
+    "64": self.data.url("./icon-64.png") 
+  },
   onClick: trigger2DoItem
 });
 
