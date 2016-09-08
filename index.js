@@ -6,7 +6,6 @@ const doHandler = require("./lib/2dohandler");
 const tabs = require('sdk/tabs');
 const selection = require("sdk/selection");
 
-
 var button = ActionButton({
   id: "add-to-2do",
   label: "Add to 2Do",
