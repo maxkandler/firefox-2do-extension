@@ -12,3 +12,7 @@ Clicking the icon will create a new Task in your 2Do inbox for the currently act
 Make sure you allow firefox to open `twodo`-links with the 2Do app.
 
 ![Screenshot for allowing firefox to use 2Do](support/start-application.png)
+
+## Icon
+
+The icon is property of the [2DoApp](http://www.2doapp.com/).
