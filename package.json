@@ -1,7 +1,7 @@
 {
   "title": "Add to 2Do",
   "name": "firefox-2do-extension",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Adds a button to create a task in 2Do for the current website.",
   "main": "index.js",
   "author": "Max Kleucker ",

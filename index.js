@@ -20,9 +20,9 @@ var button = ActionButton({
 
 
 function trigger2DoItem(){
-	let currentUrl = tabs.activeTab.url;
-	let currentTitle = tabs.activeTab.title;
-	let currentSelection = (selection.text) ? selection.text : '';
-	console.log('clicked');
-	doHandler.submitToInbox(currentUrl, currentTitle, currentSelection);
+  let currentUrl = tabs.activeTab.url;
+  let currentTitle = tabs.activeTab.title;
+  let currentSelection = (selection.text) ? selection.text : '';
+
+  doHandler.submitToInbox(currentUrl, currentTitle, currentSelection);
 }

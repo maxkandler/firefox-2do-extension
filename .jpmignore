@@ -5,4 +5,11 @@
 *.xpi
 
 # Additonal data
-/support/
+support/
+
+.git/
+.jscsrc
+.gitignore
+.jpmignore
+test/
+*.afdesign
